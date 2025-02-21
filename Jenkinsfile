@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = "chumaedeogu/result"
+        IMAGE_NAME = "chumaedeogu/vote"
     }
     stages {
         stage("Log in and Build Docker Image") {
